@@ -1,0 +1,69 @@
+{
+  "name": "project-identity",
+  "displayName": "Project Identity",
+  "description": "Differentiate between multiple instances of the same repository by customizing the window title and title bar color for each workspace.",
+  "version": "1.0.0",
+  "publisher": "AndrewSeaford",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seafooood/vs-code-extension-project-identity"
+  },
+  "homepage": "https://github.com/seafooood/vs-code-extension-project-identity/",
+  "bugs": {
+    "url": "https://github.com/seafooood/vs-code-extension-project-identity/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "workspace",
+    "theme",
+    "color",
+    "colour",
+    "style",
+    "differentiation",
+    "project",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "galleryBanner": {
+    "color": "#36558f",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "activationEvents": [
+    "onCommand:project-identity.set"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "project-identity.set",
+        "title": "Set Project Identity"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "project-identity.set",
+        "key": "ctrl+alt+s",
+        "mac": "cmd+alt+s"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.106.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.1",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

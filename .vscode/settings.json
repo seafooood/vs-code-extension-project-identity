@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "orginatiation"
+    ],
+    "window.title": "📊 Data Workspace - ${rootName}${separator}${activeEditorShort}",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2d5a87",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#1e3a5f",
+        "titleBar.inactiveForeground": "#cccccc",
+        "statusBar.background": "#2d5a87",
+        "statusBar.foreground": "#ffffff",
+        "activityBar.border": "#2d5a87",
+        "sideBar.border": "#2d5a87"
+    }
+}

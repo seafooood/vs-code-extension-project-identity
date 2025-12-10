@@ -1,0 +1,7 @@
+[
+  {
+    "label": "Project Identity Tests",
+    "files": "test/**/*.test.js",
+    "workspaceFolder": "${workspaceFolder}"
+  }
+]
