@@ -2,7 +2,10 @@
 
 All notable changes to the "Project Identity" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.1] - 2025-12-12
+
+### Fixed
+- Replace Cyan and Pink emoji with brown because of Windows OS compatibility issue.
 
 ## [1.0.0] - 2025-12-09
 

@@ -2,6 +2,8 @@
 
 A VS Code extension that helps you differentiate between multiple instances of the same repository by customizing the window title and title bar color for each workspace.
 
+![Extension screenshot](Images/Production-Test-Development.png)
+
 ## Features
 
 - **Custom Project Names**: Set a unique project name for each workspace instance
@@ -18,15 +20,21 @@ When working with multiple clones of the same repository (e.g., different featur
 - Applying a distinct color scheme to the title bar and status bar
 - Making it visually obvious at a glance which repository instance is active
 
+<video controls src="Images/Production-Test-Development.mp4" title="Title"></video>
+
 ## Usage
 
 ### Method 1: Command Palette
 1. **Open a workspace folder** in VS Code
 2. **Press `Ctrl+Shift+P`** (or `Cmd+Shift+P` on macOS) to open the command palette
 3. **Type "Set Project Identity"** and press Enter
+![Type "Set Project Identity"](Images/Step1.png)
 4. **Enter a project name** (e.g., "Frontend", "Backend", "AI-Feature")
+![Enter a project name](Images/Step2.png)
 5. **Select a color** from the predefined palette, or choose "Custom Hex Code" to enter your own
+![Select a color](Images/Step3.png)
 6. **VS Code will reload** and apply your custom settings
+![VS Code will reload](Images/Step4.png)
 
 ### Method 2: Keyboard Shortcut
 1. **Open a workspace folder** in VS Code
@@ -38,7 +46,7 @@ When working with multiple clones of the same repository (e.g., different featur
 
 ## Available Colors
 
-The extension includes 10 predefined colors:
+The extension includes 9 predefined colors:
 - 🔵 Blue (`#36558f`)
 - 🔴 Red (`#7d4a4a`)
 - 🟢 Green (`#4a6b4a`)
@@ -47,8 +55,7 @@ The extension includes 10 predefined colors:
 - 🟡 Yellow (`#8b8b3a`)
 - ⚫ Dark Gray (`#3d3d3d`)
 - ⚪ Light Gray (`#5a5a5a`)
-- 🩵 Cyan (`#4a7a8a`)
-- 🩷 Pink (`#8b5a7d`)
+- 🟤 Brown ('#6B4F3A')
 
 Or enter any valid hex color code (e.g., `#2d5a87`) for complete customization.
 
@@ -84,4 +91,13 @@ For issues, feature requests, or feedback, please visit the extension's reposito
 ## License
 
 See LICENSE.md for licensing information.
+
 <a href="https://www.flaticon.com/free-icons/dropper" title="dropper icons">Dropper icons created by Freepik - Flaticon</a>
+
+## Developer 
+
+Extension created by Andrew Seaford 
+
+<https://www.andrew-seaford.co.uk/>
+
+<www.linkedin.com/in/andrewseaford>

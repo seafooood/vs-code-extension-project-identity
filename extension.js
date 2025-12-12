@@ -10,7 +10,7 @@ const { isValidHexColor, HEX_COLOR_VALIDATION_ERROR, PREDEFINED_COLORS } = requi
 async function requestInputProjectName() {
   return await vscode.window.showInputBox({
     prompt: 'Enter a project name',
-    placeHolder: 'e.g., Frontend, Backend, AI',
+    placeHolder: 'e.g., Frontend, Backend, Production, Testing, Development',
   });
 }
 

@@ -2,7 +2,7 @@
   "name": "project-identity",
   "displayName": "Project Identity",
   "description": "Differentiate between multiple instances of the same repository by customizing the window title and title bar color for each workspace.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "AndrewSeaford",
   "repository": {
     "type": "git",

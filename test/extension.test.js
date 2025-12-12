@@ -37,8 +37,8 @@ suite('Project Identity Extension Test Suite', () => {
 			assert.ok(isValidHexColor(color), `Color ${color} should be valid hex`);
 		});
 
-		assert.strictEqual(colorValues.length, 10, 'Should have exactly 10 predefined color values');
-		assert.strictEqual(PREDEFINED_COLORS.length, 11, 'Should have 10 colors plus 1 custom option');
+		assert.strictEqual(colorValues.length, 9, 'Should have exactly 9 predefined color values');
+		assert.strictEqual(PREDEFINED_COLORS.length, 10, 'Should have 9 colors plus 1 custom option');
 	});
 
 	test('Predefined colors should have valid labels', () => {

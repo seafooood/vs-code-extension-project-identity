@@ -25,8 +25,7 @@ const PREDEFINED_COLORS = [
   { label: '🟡 Yellow', value: '#8b8b3a' },
   { label: '⚫ Dark Gray', value: '#3d3d3d' },
   { label: '⚪ Light Gray', value: '#5a5a5a' },
-  { label: '🩵 Cyan', value: '#4a7a8a' },
-  { label: '🩷 Pink', value: '#8b5a7d' },
+  { label: '🟤 Brown', value: '#6B4F3A' },
   { label: '✏️ Custom Hex Code', value: 'custom' },
 ];
 
